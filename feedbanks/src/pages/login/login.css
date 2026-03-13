@@ -1,0 +1,151 @@
+/* .login_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/entrance.jpg');
+    background-size: 200vw 200vh;
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+}
+
+.login_container .login_panel {
+    background: rgb(30 70 80);
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(38, 38, 38, 0.423);
+    width: 300px;
+    height: 400px;
+} */
+
+.login_container {
+  background-image: url("../../assets/images/entrance.jpg");
+  background-size: 200vw 200vh;
+  background-position: 55% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 800px;
+}
+
+.login_wrapper .left_panel {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  height: 450px;
+  padding: 60px 0px 60px 40px;
+  background: rgb(30 70 80);
+  width: 300px;
+}
+
+.login_wrapper .left_panel .left_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 2px 10px rgba(38, 38, 38, 0.423);
+  background: rgb(42, 87, 98);
+  padding: 40px;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.login_wrapper .right_panel {
+  color: rgb(42, 87, 98);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f0f0f0;
+  color: rgb(30 70 80);
+  padding: 60px 40px 60px 0px;
+  box-shadow: 0 2px 10px rgb(38, 38, 38);
+  height: 450px;
+  width: 300px;
+}
+
+.login_wrapper .right_panel .tabs {
+  display: flex;
+  flex-direction: row;
+  width: 132%;
+  justify-content: space-around;
+}
+
+.login_wrapper .right_panel .tabs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  margin-top: -40px;
+  border: none;
+}
+
+.login_wrapper .right_panel .tabs button:hover {
+    font-size: 15px;
+    transform: ease-in-out 1s;
+}
+
+.login_wrapper .right_panel .right_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 2px 10px rgba(38, 38, 38, 0.423); */
+  background: #e5e5e5;
+  padding: 40px;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.login_container input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login_wrapper .right_panel .options {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.login_wrapper .right_panel .options label {
+  display: flex;
+  flex-direction: row;
+}
+
+.login_wrapper .right_panel .login_btn {
+  background-color: rgb(30 70 80);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 105%;
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+.login_wrapper .right_panel .login_btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: ease-in-out 0.13s;
+}

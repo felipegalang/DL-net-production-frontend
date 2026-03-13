@@ -1,0 +1,20 @@
+.home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.home_top {
+    height: 100vh;
+    background-image: url('../../assets/images/bridge.png');
+    background-size: cover;      /* Scales image to fill container */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;/* Prevents tiling */
+
+}

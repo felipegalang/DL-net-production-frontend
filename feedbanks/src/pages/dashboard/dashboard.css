@@ -1,0 +1,63 @@
+.dashboard_container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  top: 0;
+}
+
+.dashboard_container .navbar {
+  width: 240px;
+  height: calc(100vh - 100px);
+  padding-top: 100px;
+  padding-left: 20px;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 2px 0 10px rgba(136, 136, 136, 0.731);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard_container .navbar .buttons_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.dashboard_container .navbar .buttons_container .button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard_container .navbar .buttons_container .button:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.dashboard_container .content {
+  flex: 1;
+  background-color: rgb(220, 220, 220);
+  height: calc(100vh - 100px);
+  padding-top: 100px;
+  padding-left: 20px;
+  overflow-y: auto;
+}
+
+.dashboard_container .content .products_container{
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.dashboard_container .content .products_container .product_card{
+    height: 80%;
+    width: 200px;
+    margin: 10px;
+    background: white;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
